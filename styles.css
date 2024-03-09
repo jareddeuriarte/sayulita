@@ -1,0 +1,25 @@
+body{
+    margin:0;
+}
+
+.flex-wrapper{
+    display: flex;
+    height: 100vh;
+    flex-direction: row;
+}
+
+
+.flex-wrapper img{
+    max-height: 100%;
+    margin-right: 1em ;
+}
+
+
+.back{
+    color: inherit; /* blue colors for links too */
+    text-decoration: inherit; /* no underline */
+    position: fixed;
+    bottom: 92%;
+    right: 96%;
+
+}
